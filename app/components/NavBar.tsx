@@ -5,7 +5,7 @@ const NavBar = () => {
     <div className="fixed z-10 w-full">
       <div className="flex justify-evenly text-white pt-10">
         <div className="font-bold text-4xl">
-          <a href="/">ICDAIC'24</a>
+          <a href="/">ICDAIC&lsquo;24</a>
         </div>
         <div className="text-2xl font-serif">
           <a href="/">Register Now</a>

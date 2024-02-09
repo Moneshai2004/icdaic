@@ -8,7 +8,7 @@ export const Landing = () => {
       <div className="h-screen bg-cover w-full bg-[url('/Landing.jpg')]">
         <div className="flex flex-col justify-center items-center text-white h-screen">
           <div className="font-extrabold text-6xl md:text-8xl font-serif">
-            ICDAIC'24
+            ICDAIC&lsquo;24
           </div>
           <div className="text-2xl md:text-3xl font-serif text-center">
             International Level Conference
