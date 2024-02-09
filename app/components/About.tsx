@@ -1,4 +1,5 @@
 import React from "react";
+import Date from "./Dates";
 
 const About = () => {
   return (
@@ -8,10 +9,10 @@ const About = () => {
         style={{ backgroundColor: "#d9d9d9" }}
       >
         <div
-          className="flex flex-col justify-center items-center rounded-2xl"
+          className="flex flex-col justify-center items-center rounded-2xl max-w-max "
           style={{ backgroundColor: "#9da4e1", height: "80vh", width: "70vw" }}
         >
-          <div className="pt-4 pb-8 text-3xl md:text-3xl lg:text-6xl">
+          <div className="pt-4 pb-2 text-3xl md:text-3xl lg:text-6xl">
             About
           </div>
           <div className="text-md xl:mr-96 xl:text-3xl text-justify space-y-4 md:text-xl lg:text-xl p-4">
@@ -41,6 +42,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Date />
     </>
   );
 };

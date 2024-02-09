@@ -6,7 +6,6 @@ export const Landing = () => {
   return (
     <>
       <div className="h-screen bg-cover w-full bg-[url('/Landing.jpg')]">
-        <NavBar />
         <div className="flex flex-col justify-center items-center text-white h-screen">
           <div className="font-extrabold text-6xl md:text-8xl font-serif">
             ICDAIC'24
