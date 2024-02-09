@@ -9,13 +9,13 @@ const About = () => {
         style={{ backgroundColor: "#d9d9d9" }}
       >
         <div
-          className="flex flex-col justify-center items-center rounded-2xl max-w-max "
-          style={{ backgroundColor: "#9da4e1", height: "80vh", width: "70vw" }}
+          className="flex flex-col justify-center items-center rounded-2xl max-w-max md:w-4/5 xl:w-3/5"
+          style={{ backgroundColor: "#9da4e1" }}
         >
           <div className="pt-4 pb-2 text-3xl md:text-3xl lg:text-6xl">
             About
           </div>
-          <div className="text-md xl:text-3xl text-justify space-y-4 md:text-xl lg:text-xl p-4 m-8">
+          <div className="text-lg xl:text-3xl space-y-4 md:text-xl lg:text-xl p-4 m-8">
             <div className="">
               ICDAIC&lsquo;24 is a national level technical conference that is
               to be held on April 06 2024. The event focuses on gathering the
