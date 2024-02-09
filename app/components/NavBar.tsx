@@ -13,10 +13,10 @@ const NavBar = () => {
         <div className="text-2xl font-serif hidden md:block lg:block xl:block">
           <a href="/">View brochure</a>
         </div>
-        <div className="text-2xl font-serif hidden md:block lg:block xl:block">
+        <div className="text-2xl font-serif hidden lg:block xl:block">
           <a href="/">About</a>
         </div>
-        <div className="text-2xl font-serif hidden md:block lg:block xl:block">
+        <div className="text-2xl font-serif hidden lg:block xl:block">
           <a href="/">Schedule</a>
         </div>
         <div className="text-2xl font-serif hidden md:block lg:block xl:block">

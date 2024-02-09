@@ -9,8 +9,8 @@ export const Tracks2 = () => {
         style={{ backgroundColor: "#d9d9d9" }}
       >
         <div
-          className="flex flex-col justify-center items-center rounded-2xl md:p-5 xl:p-10 lg:p-10"
-          style={{ backgroundColor: "#9da4e1", width: "70vw" }}
+          className="flex flex-col justify-center items-center max-w-max rounded-2xl md:p-5 xl:p-10 lg:p-10"
+          style={{ backgroundColor: "#9da4e1" }}
         >
           <div className="text-3xl font-bold">Tracks II</div>
           <div className="text-sm xl:text-4xl space-y-4 md:text-xl lg:text-3xl p-4">

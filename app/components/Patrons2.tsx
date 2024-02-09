@@ -8,8 +8,8 @@ const Patrons2 = () => {
         className="min-h-screen flex justify-center items-center"
         style={{ backgroundColor: "#d9d9d9" }}
       >
-        <div className="flex flex-col bg-blue-900 text-white justify-center items-center rounded-2xl md:p-5 xl:p-10 lg:p-10 w-4/5">
-          <div className="text-3xl md:text-4xl font-bold">PATRONS</div>
+        <div className="flex flex-col bg-blue-900 text-white justify-center items-center rounded-2xl md:p-5 xl:p-10 lg:p-10 max-w-max">
+          <div className="text-3xl md:text-4xl font-bold pt-4">PATRONS</div>
           <div className="text-xl md:text-2xl font-bold ml-4 md:ml-20 self-start flex flex-col gap-5">
             <div>
               <div>Convenor</div>
