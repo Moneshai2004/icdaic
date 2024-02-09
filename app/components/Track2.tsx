@@ -13,10 +13,12 @@ export const Tracks2 = () => {
           style={{ backgroundColor: "#9da4e1" }}
         >
           <div className="text-3xl font-bold">Tracks II</div>
-          <div className="text-sm xl:text-4xl space-y-4 md:text-xl lg:text-3xl p-4">
+          <div className="text-sm xl:text-4xl space-y-4 md:text-xl lg:text-xl p-4">
             <div className="bg-blue-900 p-14 rounded-2xl w-full h-full overflow-auto">
               <div className="text-white flex flex-col gap-10">
-                <div>Deep learning in autonomous systems</div>
+                <div className="text-3xl">
+                  Deep learning in autonomous systems
+                </div>
                 <div className="ml-4 md:ml-10 lg:ml-10 xl:ml-10 flex flex-col gap-5">
                   <div>Intelligent process control</div>
                   <div>Autonomous Vehicles</div>
