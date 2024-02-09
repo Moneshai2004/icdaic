@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "./Contact";
 
 const Registeration = () => {
   return (
@@ -51,6 +52,7 @@ const Registeration = () => {
           </div>
         </div>
       </div>
+      <Contact />
     </>
   );
 };
