@@ -1,10 +1,12 @@
 import React from "react";
 import Date from "./Dates";
+import Link from "next/link";
 
 const About = () => {
   return (
     <>
       <div
+        id="about-section"
         className="h-screen flex justify-center items-center"
         style={{ backgroundColor: "#d9d9d9" }}
       >
@@ -27,6 +29,20 @@ const About = () => {
               as well as offline mode. We welcome participants from all over
               India. The participants can present their project ideas through
               either offline mode or offline mode based on their convenience.
+            </div>
+            <div className="">
+              <div className="font-bold text-3xl mb-2">
+                Guideliness
+              </div>
+              <div className="V">
+                After checking the plagiarism using Turnitin plagiarism
+                software, it should be below 10%. We will publish the papers
+                with the IGI Global Partnership (scopus indexed). We have
+                planned three book chapters for our conference. We are expecting
+                100 papers for our conference. On acceptance of your paper, you
+                have to pay an extra amount of Rs. 5,000 for publication, and
+                the paper will be indexed within 6 months
+              </div>
             </div>
           </div>
         </div>

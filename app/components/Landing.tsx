@@ -26,7 +26,7 @@ export const Landing = () => {
             className="animate-text text-yellow-400 text-xl font-bold w-full"
           >
             <a href="" target="_blank">
-              For Scopus/SCI indexed Click Here
+              For IGI Global partnership (Scopus indexed)
             </a>
           </div>
         </div>
