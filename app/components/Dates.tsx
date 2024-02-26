@@ -5,6 +5,7 @@ const Date = () => {
   return (
     <>
       <div
+      id='about-schedule'
         className="h-screen flex justify-center items-center"
         style={{ backgroundColor: "#d9d9d9" }}
       >

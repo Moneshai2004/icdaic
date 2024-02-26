@@ -28,7 +28,7 @@ const Patrons2 = () => {
               </div>
             </div>
             <div>
-              <div className="text-yellow-400">Mrs. M. Hemalatha,</div>
+              <div className="text-yellow-400">Mrs. K. Sudha,</div>
               <div>
                 Assistant Professor, Department of Artificial Intelligence and
                 Data Science.
