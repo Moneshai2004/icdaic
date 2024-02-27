@@ -10,11 +10,11 @@ const Contact = () => {
           style={{ backgroundColor: "#d9d9d9" }}
         >
           <div className="flex flex-col bg-blue-900 text-white justify-center items-center rounded-2xl p-5 md:p-10 max-w-max">
-            <div className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-8">
+            <div className="text-3xl md:text-4zxl lg:text-5xl xl:text-6xl font-bold mb-8">
               Contact
             </div>
             <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center max-w-max">
-              <div className="text-md md:text-xl lg:text-2xl font-bold self-start flex flex-col gap-5">
+              <div className=" ml-5 rounded-xl text-md md:text-xl   lg:text-2xl font-bold self-start flex flex-col gap-5">
                 <div>
                   <div className="">
                     Dr. Prameeladevi Chillakuru -
