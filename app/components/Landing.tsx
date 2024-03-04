@@ -5,7 +5,7 @@ import About from "./About";
 
 export const Landing = () => {
   const handleBrochure = () => {
-    window.open("/Brochure.PNG", "_blank");
+    window.open("/Brochure.jpeg", "_blank");
   };
   return (
     <>

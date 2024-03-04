@@ -16,7 +16,7 @@ const NavBar = () => {
     }
   };
   const handleBrochure = () => {
-    window.open("/Brochure.PNG", "_blank");
+    window.open("/Brochure.jpeg", "_blank");
   };
 
 const handleContact = () => {
