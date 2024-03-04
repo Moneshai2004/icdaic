@@ -1,8 +1,12 @@
+'use client'
 import React from "react";
 import NavBar from "./NavBar";
 import About from "./About";
 
 export const Landing = () => {
+  const handleBrochure = () => {
+    window.open("/ig.PNG", "_blank");
+  };
   return (
     <>
       <div className="h-screen bg-cover w-full bg-[url('/Landing.jpg')] overflow-x-hidden">
@@ -15,10 +19,12 @@ export const Landing = () => {
           </div>
           <div className="flex space-x-10 md:flex-row md:space-x-32 lg:space-x-36 pt-12 text-2xl font-extrabold md:text-3xl lg:text-6xl font-serif">
             <div className="text-yellow-400 animate-pulse">
-              <a href="/">Register now</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbcCeaecCsXJHQmNI0DCjDm9Iy4NojdpdfsJOtx-02-yJHlA/viewform">
+                Register now
+              </a>
             </div>
             <div>
-              <a href="/">View Details</a>
+              <a href="#" onClick={handleBrochure}>View Details</a>
             </div>
           </div>
           <div
