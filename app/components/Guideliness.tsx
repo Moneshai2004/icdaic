@@ -18,19 +18,25 @@ const Guideliness = () => {
           </div>
           <div className="text-lg xl:text-3xl space-y-4 md:text-xl lg:text-xl p-4 m-8">
             <div className="">
-              After checking the plagiarism using Turnitin plagiarism software,
-              it should be below 10%. We will publish the papers with the IGI
-              Global Partnership (scopus indexed). We have planned three book
-              chapters for our conference. We are expecting 100 papers for our
-              conference. On acceptance of your paper, you have to pay an extra
-              amount of Rs. 5,000 for publication, and the paper will be indexed
-              within 6 months
+              After checking the plagiarism using Turnitin Plagiarism Software,
+              it should be below 15%.On acceptance of your paper, we will
+              publish the papers with ISBN Number(978-81-967851-3-0) and the IGI
+              Global Partnership (Scopus Indexed). We have planned three book
+              chapters for our Conference. We are expecting 100 papers for our
+              Conference.You have to pay an extra amount of Rs. 5,000 for
+              Publication, and the paper will be indexed within 6 months.
+            </div>
+
+            <div className="flex justify-center space-x-4">
+              <div>ISBN Number - </div>
+              <div className="text-yellow-300"> 978-81-967851-3-0</div>
             </div>
           </div>
         </div>
       </div>
-      <Date/>
+      <Date />
     </>
+
   );
 }
 
