@@ -21,7 +21,7 @@ const Date = () => {
               <div className="text-white flex flex-col gap-10">
                 <div className="flex justify-between">
                   <div>Abstract submission:</div>
-                  <div>01/03/2024</div>
+                  <div>09/03/2024</div>
                 </div>
                 <div className="flex justify-between">
                   <div>Full paper submission:</div>
